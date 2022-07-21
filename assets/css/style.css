@@ -1,0 +1,29 @@
+body{
+   margin: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#playGround{
+    background-color: black;
+    border: dashed 10px cyan;
+    width: 400px;
+    height: 600px;
+    position: relative;
+}
+
+#pacman{
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    position: absolute;
+    border-radius: 50%;
+}
+#eye{
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    margin: 10px;
+    border-radius: 50%;
+}
